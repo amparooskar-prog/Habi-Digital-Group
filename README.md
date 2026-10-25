@@ -10,7 +10,7 @@ Marketing website, roadshow brief, and compact enquiry landing page.
 - `/thank-you/` — fallback return page for native form submissions
 
 ## Enquiry delivery
-The enquiry form posts to FormSubmit for delivery to **amparooskar@gmail.com**, approved by the site owner. The recipient must activate the service using its confirmation email before delivery can be relied upon. No API keys or Gmail credentials are included. JavaScript handles accepted responses, activation messages, timeout, and errors; native HTML submission is the no-JavaScript fallback. Honeypot and provider spam protection apply. Verify recipient activation and a real test delivery before using with prospects.
+The enquiry form posts to FormSubmit for delivery to **amparooskar@gmail.com**, approved by the site owner. The recipient confirmed activation on 25 October 2026. A test from the live site origin was accepted successfully by FormSubmit. New origins may require separate activation. No API keys or Gmail credentials are included. JavaScript handles accepted responses, activation messages, timeout, and errors; native HTML submission is the no-JavaScript fallback. Honeypot and provider spam protection apply. Verify recipient activation and a real test delivery before using with prospects.
 
 The roadshow form remains a separate local download, not an email submission.
 

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://habi-digital-group.whiteswan32.chatgpt.site/sitemap.xml
