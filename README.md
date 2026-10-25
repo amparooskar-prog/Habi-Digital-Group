@@ -2,11 +2,11 @@
 
 ## Open the website
 
-- **[Home page](https://habi-digital-group.whiteswan32.chatgpt.site/)**
-- **[Compact landing page & enquiry form](https://habi-digital-group.whiteswan32.chatgpt.site/enquire/)**
-- **[Roadshow conversation brief](https://habi-digital-group.whiteswan32.chatgpt.site/roadshow/)**
+- **[Home page](https://amparooskar-prog.github.io/Habi-Digital-Group/)**
+- **[Compact landing page & enquiry form](https://amparooskar-prog.github.io/Habi-Digital-Group/enquire/)**
+- **[Roadshow conversation brief](https://amparooskar-prog.github.io/Habi-Digital-Group/roadshow/)**
 
-These links open the hosted website. It currently requires the owner's sign-in.
+These links open the public GitHub Pages website.
 
 ## Find the website files
 
@@ -37,8 +37,14 @@ The enquiry form posts to FormSubmit for delivery to **amparooskar@gmail.com**, 
 
 The roadshow form remains a separate local download, not an email submission.
 
+## GitHub Pages publishing
+
+Pages publishes from `main` → `/docs`. The `dist/` folder remains the source for the original Sites host. After editing `dist/`, run `python3 scripts/build-github-pages.py` and commit the regenerated `docs/` folder. The generator adapts navigation, assets, canonical URLs, sitemap, and the form return URL for the GitHub project path.
+
+FormSubmit may require a separate email activation for this GitHub Pages origin.
+
 ## Development and hosting
-Serve `dist/` with any static HTTP server. No build step or package installation is required. Root-relative links require hosting at a domain root; for GitHub Pages, configure an appropriate custom domain or adapt asset and link paths for a project subpath. Uploading this repository does not itself enable GitHub Pages.
+Serve `dist/` with any static HTTP server. No build step or package installation is required. Root-relative links require hosting at a domain root; for GitHub Pages, configure an appropriate custom domain or adapt asset and link paths for a project subpath. GitHub Pages is configured to publish the generated `docs/` directory.
 
 The `.openai/hosting.json` file binds this source to the existing Sites project. The Sites source repository and this GitHub repository are separate; GitHub upload does not create an automatic deployment pipeline.
 
