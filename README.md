@@ -1,5 +1,28 @@
 # Habi Digital Group
 
+## Open the website
+
+- **[Home page](https://habi-digital-group.whiteswan32.chatgpt.site/)**
+- **[Compact landing page & enquiry form](https://habi-digital-group.whiteswan32.chatgpt.site/enquire/)**
+- **[Roadshow conversation brief](https://habi-digital-group.whiteswan32.chatgpt.site/roadshow/)**
+
+These links open the hosted website. It currently requires the owner's sign-in.
+
+## Find the website files
+
+All website files are in **[dist/](dist/)**.
+
+| Page or asset | File |
+| --- | --- |
+| Home page | [dist/index.html](dist/index.html) |
+| Compact landing page | [dist/enquire/index.html](dist/enquire/index.html) |
+| Roadshow page | [dist/roadshow/index.html](dist/roadshow/index.html) |
+| Styles | [dist/style.css](dist/style.css) |
+| Form and animation code | [dist/app.js](dist/app.js) |
+| Logo | [dist/logo.png](dist/logo.png) |
+
+GitHub's Code tab displays source files, not a rendered website. Use the live links above to view the design.
+
 Marketing website, roadshow brief, and compact enquiry landing page.
 
 ## Pages
