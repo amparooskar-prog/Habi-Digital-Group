@@ -2,7 +2,7 @@
 from pathlib import Path
 import shutil
 root = Path(__file__).resolve().parents[1]
-origin = "https://habi-digitalgroup.com"
+origin = "https://www.habi-digitalgroup.com"
 old_origin = "https://habi-digital-group.whiteswan32.chatgpt.site"
 legacy_origin = "https://amparooskar-prog.github.io/Habi-Digital-Group"
 for source in (root / "dist").rglob("*"):
@@ -18,5 +18,5 @@ for source in (root / "dist").rglob("*"):
     else:
         shutil.copy2(source, target)
 (root / "docs" / ".nojekyll").write_text("")
-(root / "docs" / "CNAME").write_text("habi-digitalgroup.com\n")
+(root / "docs" / "CNAME").write_text("www.habi-digitalgroup.com\n")
 print("Generated website files in docs/ for habi-digitalgroup.com")
