@@ -21,3 +21,5 @@ if(enquiryForm){
   finally{clearTimeout(timer);send.disabled=false;send.innerHTML='Send my enquiry <span><svg class="arrow-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 19 19 5M5 5h14v14"/></svg></span>';}
  });
 }
+
+if(enquiryForm && new URLSearchParams(location.search).get('service')==='website'){enquiryForm.elements.service.value='Website, e-commerce or landing page';}
