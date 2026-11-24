@@ -6,3 +6,10 @@
 .arrow-icon{display:inline-block;width:1em;height:1em;vertical-align:-.125em;flex-shrink:0}
 
 .direct-contact{margin-top:24px;padding-top:20px;border-top:1px solid var(--line);font-size:13px}.direct-contact p{margin:0 0 10px;color:var(--ink);font-weight:600}.direct-contact a{color:var(--lime);text-decoration:underline;text-underline-offset:4px;overflow-wrap:anywhere}.contact-actions{display:flex;flex-wrap:wrap;gap:12px 20px;margin-top:12px}.contact-actions a{display:inline-flex;align-items:center;min-height:44px}
+
+/* Accessible mobile navigation */
+.nav-toggle{display:none}
+@media(max-width:1000px){
+.nav{flex-wrap:wrap;gap:12px}.nav>.btn{margin-left:auto}.nav-toggle{display:inline-flex;align-items:center;gap:8px;border:1px solid #727867;border-radius:7px;padding:10px 12px;background:#282c21;color:var(--ink);font-size:14px;min-height:44px}.nav-toggle svg{width:18px;height:18px}.nav .navlinks{display:flex;order:4;flex-basis:100%;flex-direction:column;gap:0;border-top:1px solid var(--line);padding-top:8px}.nav .navlinks a{display:block;padding:12px 8px;font-size:16px;min-height:44px}.nav.menu-ready .navlinks{display:none}.nav.menu-ready.menu-open .navlinks{display:flex}.nav.menu-open{background:#20231b;max-height:calc(100dvh - 30px);overflow:auto}.nav .navlinks a:hover{background:#343b27;color:var(--lime)}
+}
+@media(max-width:420px){.nav{gap:8px}.nav>.btn{display:none}.nav-toggle{margin-left:auto}}
