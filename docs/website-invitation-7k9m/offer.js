@@ -1,0 +1,1 @@
+(()=>{const expires=Date.parse('2026-12-25T00:00:00+08:00');function check(){if(Date.now()>=expires){document.getElementById('offer-content').hidden=true;document.getElementById('expired').hidden=false;document.title='Offer ended | Habi Digital Group';}}check();setInterval(check,60000);})();
